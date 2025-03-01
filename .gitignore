@@ -1,0 +1,8 @@
+// Node module
+node_modules
+// Compiled files
+dist
+// Next.js build files
+.next
+// Cache
+.cache

@@ -1,0 +1,436 @@
+{
+  "general": {
+    "profilePhoto": "/content/media/profilePhoto.jpg",
+    "username": "monfernape",
+    "displayName": "Usman Khalil",
+    "profession": "Software Developer",
+    "location": "Pakistan",
+    "pronouns": "He/Him",
+    "byline": "Software Developer in Pakistan, He/Him",
+    "website": "https://dev.to/monfernape",
+    "websiteURL": "https://dev.to/monfernape",
+    "about": "A mechanical engineer whose engine pumps JavaScript now. I’m a community-taught developer with over 6 years of experience and no longer fear breaking the web. As an engineer, I take challenges heads on and love solving complex problems.\n\nI've been building SaaS all my career. Being at SaaS requires one to be very vigilant and have a mindset of unblocking themselves and be the first one to fire a solution. Ariglad is a fine example in my career, and we were only two developers in the team. We'd kept our planning really solid and didn't hesitate to go on wild routes while implementing stuff. New SaaS startups have a bit of pressurised settings, but I enjoy it generally as it gives me more freedom to experiment things.\n\nOn frontend, Next.js is my go-to framework while I've a great working experience with Angular as well. New features such as React Server Components and transition APIs excites me the most. Similarly, on the backend, I'm well versed with both Express and NestJS. MongoDB is my favourite DB, and I do adore Postgres sometimes.\n\nI've been actively working on codebases that heavily rely on TypeScript. I'm very comfortable with generics, union types, discrimination types and other utilities. Something that comes to mind is one NPM library I built for my previous role which had a lot of TypeScript magic.\n\nI'm used to keeping things very planned actually. I've a habit of writing something called Technical Design Document (TDD) that covers up the ideation of my development workflow, potential blockers and alternative routes. I'd then set up a team calendar invite to go through the TDD and put things into discussion. We'd outline several points and have them answer right on spot thanks to the product team around. We'd then move on creating T-shirt sizes tickets and milestones accordingly.\n\nI'm enthusiastic about the prospect of joining your team and being part of something awesome.",
+    "status": {
+      "text": "Building great things",
+      "emoji": "🚀",
+      "timestamp": "2025-02-27T17:34:03.455Z"
+    },
+    "sectionOrder": null
+  },
+  "projects": [
+    {
+      "id": "4NeGJmomriduPfvQJIXX",
+      "year": "2022",
+      "heading": "Client Portal at Copilot",
+      "url": "https://copilot.app",
+      "collaborators": [],
+      "description": "[Copilot](https://www.copilot.app/) is an all-in-one technology platform designed to help service businesses manage and grow their operations seamlessly. With features for client communication, payments, file-sharing, and more, Copilot empowers businesses to provide a unified, branded experience through a client portal.\n\nResponsibilities\n\n* Revamped the e-signature experience and built it from scratch to enable signing experience on mobile devices.\n\n* Took initiative to bring down TypeScript errors to zero as part of team effort.\n\n* Implemented the invoicing and subscription features to enable businesses having payments under the platform via Stripe.\n\n* Integrated RTK Query to streamline and improve data fetching, resulting in faster loading and smoother interactions.\n\n* Led small to medium size projects by writing down effective Technical Design Documents.\n\n* Helped build  a design system and maintained it on npm.\n\n* Being a primary engineer for weekly on-call duties each month.\n\nUsed languages and technologies: React.js, Golang, Material UI, Tailwind, Stream Chat, Stripe, AWS, Redux",
+      "attachments": [],
+      "type": "project",
+      "title": "Client Portal",
+      "company": "Copilot"
+    },
+    {
+      "id": "lThp2xnILLzdEk2uU7Tu",
+      "year": "2021",
+      "heading": "HR System at Ariglad",
+      "url": "https://www.ariglad.com/",
+      "collaborators": [],
+      "description": "[Ariglad](https://www.ariglad.com/) empowers organizations with a comprehensive HR management system, enabling seamless operations with features like claim handling, ticket analytics, dynamic forms, and secure access based on organizational roles.\n\nResponsibilities\n\n* Visualized user claim stats with graphs for resolved, open, and created claims, tailored by user roles.\n\n* Tracked user actions, like admin assignments and claim resolutions, for clear accountability.\n\n* Allowed customizable forms with field options like checkboxes, radios, drag-and-drop sorting.\n\n* Role-Based Access Control:\n\n  * SuperAdmin: Full control across organizations.\n\n  * OrganizationAdmin: Manage and resolve claims within their organization.\n\n  * User: Submit claims but cannot delete or resolve them.\n\n* Improved auth systems by introducing longer sessions and better security.\n\n* Enabled user-admin chat in claim details, with SuperAdmin monitoring access.\n\n* Included resources, shift management via event calendar, and protected routes.\n\n* Delivered solutions for Ticket Assignment and Automating HR workflow management systems to provide businesses with detailed digital recordkeeping capability. Reviewed user requirements, analyzed, designed, implemented, installed and delivered training for new applications.\n\n* Created APIs to display stats such as Net Promotor Score on dashboard.\n\nUsed languages and technologies: React, Material UI, Node.js, MongoDB, Socket.io",
+      "attachments": [],
+      "type": "project",
+      "title": "HR System",
+      "company": "Ariglad"
+    }
+  ],
+  "sideProjects": [
+    {
+      "id": "tmfpdOBlvKJ8Ypvx98CU",
+      "year": "2021",
+      "heading": "EC at E-Commerce",
+      "url": "https://github.com/Monfernape/shopping-cart-assessment",
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "sideProject",
+      "title": "EC",
+      "company": "E-Commerce"
+    },
+    {
+      "id": "AQlJ2icEgPIyfdlJVohw",
+      "year": "2020",
+      "heading": "EBlock at EBlock",
+      "url": "https://github.com/Monfernape/react-eblock",
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "sideProject",
+      "title": "EBlock",
+      "company": "EBlock"
+    }
+  ],
+  "exhibitions": [],
+  "talks": [],
+  "writing": [
+    {
+      "id": "njd63fAWWV7eGX0j6Eai",
+      "year": "2022",
+      "heading": "Get Public Holidays By Country Using Google Calendar API, DEV Community",
+      "url": "https://dev.to/monfernape/get-country-holidays-using-google-calendar-api-3dh6",
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "writing",
+      "title": "Get Public Holidays By Country Using Google Calendar API",
+      "publisher": "DEV Community"
+    },
+    {
+      "id": "t1aYSpA3v0tgvyga75k7",
+      "year": "2021",
+      "heading": "Enforce Husky Pre-Commit With ESLint & Prettier In Monorepo, DEV Community",
+      "url": "https://dev.to/monfernape/enforce-husky-pre-commit-with-eslint-prettier-in-monorepo-55jc",
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "writing",
+      "title": "Enforce Husky Pre-Commit With ESLint & Prettier In Monorepo",
+      "publisher": "DEV Community"
+    }
+  ],
+  "awards": [],
+  "features": [],
+  "workExperience": [
+    {
+      "id": "DYmER75qqDYgHa9KZ8ae",
+      "year": "2022 — Now",
+      "heading": "Software Engineer at Copilot",
+      "url": "https://www.copilot.com/",
+      "collaborators": [],
+      "description": "",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Software Engineer",
+      "company": "Copilot",
+      "location": "NYC"
+    },
+    {
+      "id": "5XszgEQhLebxvTqkKSJi",
+      "year": "2021 — Now",
+      "heading": "Senior Web Engineer at Ariglad",
+      "url": "https://www.ariglad.com/",
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Senior Web Engineer",
+      "company": "Ariglad",
+      "location": "Remote"
+    },
+    {
+      "id": "xXPMNcbQl2Cm8sKTgmdK",
+      "year": "2020 — 2021",
+      "heading": "Development Team Lead at Technovez",
+      "url": "https://technovez.com",
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Development Team Lead",
+      "company": "Technovez",
+      "location": "Multan"
+    },
+    {
+      "id": "ns8UWt7QdNYhRWO78Ypx",
+      "year": "2018 — 2020",
+      "heading": "Web Developer at Technovez",
+      "url": "https://technovez.com",
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Web Developer",
+      "company": "Technovez",
+      "location": "Multan"
+    }
+  ],
+  "volunteering": [],
+  "education": [
+    {
+      "id": "H4M5ayoPL61Cnj2EvkXi",
+      "year": "2014 — 2018",
+      "heading": "B.Sc Mechanical Engineering at University of Engineering and Technology, Lahore",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "education",
+      "degree": "B.Sc Mechanical Engineering",
+      "school": "University of Engineering and Technology, Lahore",
+      "location": "Lahore"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "kLlFEcxyvRf0vj7EbwmJ",
+      "year": "2022",
+      "heading": "MongoDB for JS Developers from MongoDB",
+      "url": "https://university.mongodb.com/course_completion/8fe626d3-3ea5-437f-86ce-0137abd6b5e3",
+      "collaborators": [],
+      "description": null,
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1135,
+          "height": 900,
+          "url": "/content/media/MongoDB-for-JS-Developers-from-MongoDB.jpg"
+        }
+      ],
+      "type": "certification",
+      "name": "MongoDB for JS Developers",
+      "organization": "MongoDB"
+    }
+  ],
+  "contact": [
+    {
+      "id": "AbTMYiVpakEtcbdmevPq",
+      "platform": "Twitter",
+      "handle": "monfernape",
+      "url": "https://twitter.com/monfernape"
+    },
+    {
+      "id": "MmrJ5XknyFbdav94GDvY",
+      "platform": "LinkedIn",
+      "handle": "monfernape",
+      "url": "https://linkedin.com/in/monfernape"
+    },
+    {
+      "id": "U1meXZB5LXdqB9ZzsRhy",
+      "platform": "GitHub",
+      "handle": "monfernape",
+      "url": "https://github.com/monfernape"
+    },
+    {
+      "id": "3ou6KwICgzdtcAtDtqo2",
+      "platform": "Email",
+      "handle": "engr.usmankhalil@gmail.com",
+      "url": "mailto:engr.usmankhalil@gmail.com"
+    }
+  ],
+  "allCollections": [
+    {
+      "name": "Projects",
+      "items": [
+        {
+          "id": "4NeGJmomriduPfvQJIXX",
+          "year": "2022",
+          "heading": "Client Portal at Copilot",
+          "url": "https://copilot.app",
+          "collaborators": [],
+          "description": "[Copilot](https://www.copilot.app/) is an all-in-one technology platform designed to help service businesses manage and grow their operations seamlessly. With features for client communication, payments, file-sharing, and more, Copilot empowers businesses to provide a unified, branded experience through a client portal.\n\nResponsibilities\n\n* Revamped the e-signature experience and built it from scratch to enable signing experience on mobile devices.\n\n* Took initiative to bring down TypeScript errors to zero as part of team effort.\n\n* Implemented the invoicing and subscription features to enable businesses having payments under the platform via Stripe.\n\n* Integrated RTK Query to streamline and improve data fetching, resulting in faster loading and smoother interactions.\n\n* Led small to medium size projects by writing down effective Technical Design Documents.\n\n* Helped build  a design system and maintained it on npm.\n\n* Being a primary engineer for weekly on-call duties each month.\n\nUsed languages and technologies: React.js, Golang, Material UI, Tailwind, Stream Chat, Stripe, AWS, Redux",
+          "attachments": [],
+          "type": "project",
+          "title": "Client Portal",
+          "company": "Copilot"
+        },
+        {
+          "id": "lThp2xnILLzdEk2uU7Tu",
+          "year": "2021",
+          "heading": "HR System at Ariglad",
+          "url": "https://www.ariglad.com/",
+          "collaborators": [],
+          "description": "[Ariglad](https://www.ariglad.com/) empowers organizations with a comprehensive HR management system, enabling seamless operations with features like claim handling, ticket analytics, dynamic forms, and secure access based on organizational roles.\n\nResponsibilities\n\n* Visualized user claim stats with graphs for resolved, open, and created claims, tailored by user roles.\n\n* Tracked user actions, like admin assignments and claim resolutions, for clear accountability.\n\n* Allowed customizable forms with field options like checkboxes, radios, drag-and-drop sorting.\n\n* Role-Based Access Control:\n\n  * SuperAdmin: Full control across organizations.\n\n  * OrganizationAdmin: Manage and resolve claims within their organization.\n\n  * User: Submit claims but cannot delete or resolve them.\n\n* Improved auth systems by introducing longer sessions and better security.\n\n* Enabled user-admin chat in claim details, with SuperAdmin monitoring access.\n\n* Included resources, shift management via event calendar, and protected routes.\n\n* Delivered solutions for Ticket Assignment and Automating HR workflow management systems to provide businesses with detailed digital recordkeeping capability. Reviewed user requirements, analyzed, designed, implemented, installed and delivered training for new applications.\n\n* Created APIs to display stats such as Net Promotor Score on dashboard.\n\nUsed languages and technologies: React, Material UI, Node.js, MongoDB, Socket.io",
+          "attachments": [],
+          "type": "project",
+          "title": "HR System",
+          "company": "Ariglad"
+        }
+      ]
+    },
+    {
+      "name": "Side Projects",
+      "items": [
+        {
+          "id": "tmfpdOBlvKJ8Ypvx98CU",
+          "year": "2021",
+          "heading": "EC at E-Commerce",
+          "url": "https://github.com/Monfernape/shopping-cart-assessment",
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "sideProject",
+          "title": "EC",
+          "company": "E-Commerce"
+        },
+        {
+          "id": "AQlJ2icEgPIyfdlJVohw",
+          "year": "2020",
+          "heading": "EBlock at EBlock",
+          "url": "https://github.com/Monfernape/react-eblock",
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "sideProject",
+          "title": "EBlock",
+          "company": "EBlock"
+        }
+      ]
+    },
+    {
+      "name": "Writing",
+      "items": [
+        {
+          "id": "njd63fAWWV7eGX0j6Eai",
+          "year": "2022",
+          "heading": "Get Public Holidays By Country Using Google Calendar API, DEV Community",
+          "url": "https://dev.to/monfernape/get-country-holidays-using-google-calendar-api-3dh6",
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "writing",
+          "title": "Get Public Holidays By Country Using Google Calendar API",
+          "publisher": "DEV Community"
+        },
+        {
+          "id": "t1aYSpA3v0tgvyga75k7",
+          "year": "2021",
+          "heading": "Enforce Husky Pre-Commit With ESLint & Prettier In Monorepo, DEV Community",
+          "url": "https://dev.to/monfernape/enforce-husky-pre-commit-with-eslint-prettier-in-monorepo-55jc",
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "writing",
+          "title": "Enforce Husky Pre-Commit With ESLint & Prettier In Monorepo",
+          "publisher": "DEV Community"
+        }
+      ]
+    },
+    {
+      "name": "Work Experience",
+      "items": [
+        {
+          "id": "DYmER75qqDYgHa9KZ8ae",
+          "year": "2022 — Now",
+          "heading": "Software Engineer at Copilot",
+          "url": "https://www.copilot.com/",
+          "collaborators": [],
+          "description": "",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Software Engineer",
+          "company": "Copilot",
+          "location": "NYC"
+        },
+        {
+          "id": "5XszgEQhLebxvTqkKSJi",
+          "year": "2021 — Now",
+          "heading": "Senior Web Engineer at Ariglad",
+          "url": "https://www.ariglad.com/",
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Senior Web Engineer",
+          "company": "Ariglad",
+          "location": "Remote"
+        },
+        {
+          "id": "xXPMNcbQl2Cm8sKTgmdK",
+          "year": "2020 — 2021",
+          "heading": "Development Team Lead at Technovez",
+          "url": "https://technovez.com",
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Development Team Lead",
+          "company": "Technovez",
+          "location": "Multan"
+        },
+        {
+          "id": "ns8UWt7QdNYhRWO78Ypx",
+          "year": "2018 — 2020",
+          "heading": "Web Developer at Technovez",
+          "url": "https://technovez.com",
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Web Developer",
+          "company": "Technovez",
+          "location": "Multan"
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "items": [
+        {
+          "id": "H4M5ayoPL61Cnj2EvkXi",
+          "year": "2014 — 2018",
+          "heading": "B.Sc Mechanical Engineering at University of Engineering and Technology, Lahore",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "B.Sc Mechanical Engineering",
+          "school": "University of Engineering and Technology, Lahore",
+          "location": "Lahore"
+        }
+      ]
+    },
+    {
+      "name": "Certifications",
+      "items": [
+        {
+          "id": "kLlFEcxyvRf0vj7EbwmJ",
+          "year": "2022",
+          "heading": "MongoDB for JS Developers from MongoDB",
+          "url": "https://university.mongodb.com/course_completion/8fe626d3-3ea5-437f-86ce-0137abd6b5e3",
+          "collaborators": [],
+          "description": null,
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1135,
+              "height": 900,
+              "url": "/content/media/MongoDB-for-JS-Developers-from-MongoDB.jpg"
+            }
+          ],
+          "type": "certification",
+          "name": "MongoDB for JS Developers",
+          "organization": "MongoDB"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "items": [
+        {
+          "id": "AbTMYiVpakEtcbdmevPq",
+          "platform": "Twitter",
+          "handle": "monfernape",
+          "url": "https://twitter.com/monfernape"
+        },
+        {
+          "id": "MmrJ5XknyFbdav94GDvY",
+          "platform": "LinkedIn",
+          "handle": "monfernape",
+          "url": "https://linkedin.com/in/monfernape"
+        },
+        {
+          "id": "U1meXZB5LXdqB9ZzsRhy",
+          "platform": "GitHub",
+          "handle": "monfernape",
+          "url": "https://github.com/monfernape"
+        },
+        {
+          "id": "3ou6KwICgzdtcAtDtqo2",
+          "platform": "Email",
+          "handle": "engr.usmankhalil@gmail.com",
+          "url": "mailto:engr.usmankhalil@gmail.com"
+        }
+      ]
+    }
+  ]
+}
